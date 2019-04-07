@@ -2,6 +2,8 @@
 
 Raspberry Pi Aquarium 
 
+The duration of the dusk and dawn is 12 minutes.
+
 Install PCA9685 and ServoKit Libraries:
 
 sudo pip3 install adafruit-circuitpython-pca9685
@@ -20,6 +22,6 @@ Thermostat - start at reboot
 
 L_On - start at reboot
 
-L_Off - start at 21:59
+L_Off - start at 21:48
 
 Reboot - 8:00 everyday
