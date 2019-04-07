@@ -20,7 +20,8 @@ led_channel = pca.channels[0]
 
 if (hour >= 8 and hour < 22):
     for i in range(0xffff):
-        led_channel.duty_cycle = i;
+        led_channel.duty_cycle = i
+        time.sleep(0.01);
 
 else:
     led_channel.duty_cycle = 0;
