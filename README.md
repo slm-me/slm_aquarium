@@ -18,8 +18,8 @@ Relay - start at reboot
 
 Thermostat - start at reboot
 
-Thermostat - start at reboot
-
 L_On - start at reboot
 
 L_Off - start at 21:59
+
+Reboot - 8:00 everyday
